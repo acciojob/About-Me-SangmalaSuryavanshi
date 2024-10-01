@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .skill {
+            margin-top: 10px;
+        }
+        .skill-bar {
+            background: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .skill-level {
+            height: 20px;
+            background: #76c7c0;
+            width: 0; /* Set this width for your skill level */
+            transition: width 0.5s;
+        }
+    </style>
+</head>
+<body>
 
+    <section>
+        <h1>Name</h1>
+        <p>Your Name</p>
+    </section>
+
+    <section>
+        <h2>Email</h2>
+        <p>your.email@example.com</p>
+    </section>
+
+    <section>
+        <h2>Profile</h2>
+        <p>A brief profile about yourself.</p>
+    </section>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Write a few sentences about yourself, your interests, and your background.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skill">
+            <img src="icon1.png" alt="Skill Icon" style="width: 24px; vertical-align: middle;">
+            <span style="margin-left: 10px;">Skill 1</span>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 80%;"></div> <!-- Adjust width for skill level -->
+            </div>
+        </div>
+        <div class="skill">
+            <img src="icon2.png" alt="Skill Icon" style="width: 24px; vertical-align: middle;">
+            <span style="margin-left: 10px;">Skill 2</span>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 60%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <img src="icon3.png" alt="Skill Icon" style="width: 24px; vertical-align: middle;">
+            <span style="margin-left: 10px;">Skill 3</span>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 90%;"></div>
+            </div>
+        </div>
+        <!-- Add more skills as needed -->
+    </section>
+
+</body>
+</html>
